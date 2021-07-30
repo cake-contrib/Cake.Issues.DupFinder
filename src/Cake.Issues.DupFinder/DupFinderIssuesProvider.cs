@@ -66,6 +66,7 @@
                             .InFile(fragment.FilePath, fragment.LineStart, fragment.LineEnd, null, null)
                             .OfRule("dupFinder")
                             .WithPriority(IssuePriority.Warning)
+                            .WithAdditionalInformation("cost", cost.ToString())
                             .Create();
 
                     result.Add(issue);

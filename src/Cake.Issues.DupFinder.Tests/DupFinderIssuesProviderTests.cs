@@ -102,6 +102,7 @@
                         .InFile(@"Src\Foo.cs", 16, 232, null, null)
                         .OfRule("dupFinder")
                         .WithPriority(IssuePriority.Warning)
+                        .WithAdditionalInformation("cost", "100")
                         .Create());
             }
 
@@ -177,6 +178,7 @@
                         .InFile(@"Src\Foo.cs", 16, 232, null, null)
                         .OfRule("dupFinder")
                         .WithPriority(IssuePriority.Warning)
+                        .WithAdditionalInformation("cost", "100")
                         .Create());
             }
         }
