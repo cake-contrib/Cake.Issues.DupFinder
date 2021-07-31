@@ -33,5 +33,14 @@ The [Cake.Issues.DupFinder addin] provides the following features:
 | <span class="glyphicon glyphicon-ok" style="color:green"></span>   | `IIssue.Rule`                     | Always `dupFinder`               |
 | <span class="glyphicon glyphicon-remove" style="color:red"></span> | `IIssue.RuleUrl`                  |                                  |
 
+## Additional information
+
+The following values are provided in the [IIssue.AdditionalInformation] property:
+
+| Key    | Description                                                                      |
+|--------|----------------------------------------------------------------------------------|
+| `cost` | Cost of the duplicate. The bigger the duplicated code block the higher the cost. |
+
 [JetBrains dupFinder]: https://www.jetbrains.com/help/resharper/dupFinder.html
 [Cake.Issues.DupFinder addin]: https://www.nuget.org/packages/Cake.Issues.DupFinder
+[IIssue.AdditionalInformation]: /api/Cake.Issues/IIssue/FE50CEF3
