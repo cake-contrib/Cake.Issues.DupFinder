@@ -9,41 +9,13 @@ updates:
   ignore:
   - dependency-name: Cake.Core
     versions:
-    - ">= 0.36.a, < 0.37"
-  - dependency-name: Cake.Core
+    - "(,3.0)"
+  - dependency-name: Cake.Testing
     versions:
-    - ">= 0.37.a, < 0.38"
-  - dependency-name: Cake.Core
-    versions:
-    - ">= 0.38.a, < 0.39"
+    - "(,3.0)"
   - dependency-name: Cake.Issues
     versions:
-    - "> 0.9.0, < 0.10"
-  - dependency-name: Cake.Testing
-    versions:
-    - ">= 0.36.a, < 0.37"
-  - dependency-name: Cake.Testing
-    versions:
-    - ">= 0.37.a, < 0.38"
-  - dependency-name: Cake.Testing
-    versions:
-    - ">= 0.38.a, < 0.39"
-  - dependency-name: Microsoft.NET.Test.Sdk
-    versions:
-    - 16.8.3
-    - 16.9.1
-  - dependency-name: Cake.Core
-    versions:
-    - 1.0.0
-  - dependency-name: Cake.Testing
-    versions:
-    - 1.0.0
-  - dependency-name: Shouldly
-    versions:
-    - 4.0.3
-  - dependency-name: Microsoft.CodeAnalysis.FxCopAnalyzers
-    versions:
-    - 3.3.2
+    - "> 1.0.0, < 2"
   - dependency-name: Cake.Issues.Testing
     versions:
-    - 0.9.1
+    - "> 1.0.0, < 2"
